@@ -24,3 +24,13 @@ $ git remote rm <name>
 5.pull和push
 $ git push <repo name> <main> #分支名写main，github仓库默认分支设置为main，保持一致才能正确上传
 $ git pull <name> <main>
+
+echo "# HowToUseGit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/wbuua/HowToUseGit.git
+git push -u origin main
+
+ 
