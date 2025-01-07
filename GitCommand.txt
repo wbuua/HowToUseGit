@@ -8,6 +8,9 @@ $ git config --global user.name 用户命
 $ git config --global user.password 密码
 $ git config --global user.email 邮箱
 $ git branch -M main
+#代理设置，使用代理连接github时需要设置，使push和pull成功
+$ git config --global http.proxy http://127.0.0.1:29758 #upnet代理端口为29758
+$ git config --global -l #查看代理设置
 
 2..初始化文件夹git仓库
 $ git init
