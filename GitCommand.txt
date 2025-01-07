@@ -20,3 +20,4 @@ $ git remote add <name> <url>
 $ git remote   #查看所有远程仓库
 
 5.pull和push
+$ git push <repo name> <master> #分支名写master，github仓库默认分支设置为master，保持一致才能正确上传
